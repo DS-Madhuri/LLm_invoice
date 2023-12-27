@@ -1,0 +1,13 @@
+prefix=E:/VCIT - DATA SCIENCE/8. LLM/2. Projects/LLm_invoice/venv/Library
+exec_prefix=E:/VCIT - DATA SCIENCE/8. LLM/2. Projects/LLm_invoice/venv/Library
+libdir=E:/VCIT - DATA SCIENCE/8. LLM/2. Projects/LLm_invoice/venv/Library/lib
+sharedlibdir=E:/VCIT - DATA SCIENCE/8. LLM/2. Projects/LLm_invoice/venv/Library/lib
+includedir=E:/VCIT - DATA SCIENCE/8. LLM/2. Projects/LLm_invoice/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
