@@ -43,7 +43,7 @@ input=st.text_input("Input Prompt: ", key="input")
 uploaded_file = st.file_uploader("Choose an Image of Invoice.....", type=['jpg','jpeg','png'])
 image=""
 if uploaded_file is not None:
-    image=image.open(uploaded_file)
+    image=Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image", use_column_width=True)
 
 submit=st.button("Tell me about the Invoice")
